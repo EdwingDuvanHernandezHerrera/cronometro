@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../storage/img/memoria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+main{
+    background: #0e0d0dea;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(160, 157, 157, 0.103);
+    border-radius: 100%;
+    border: .5px solid rgb(201, 195, 195);
+    box-shadow: 0 0 5px rgb(192, 190, 190);
+}
+
+.cronometroFondo{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tiempo{
+    width: 80%;
+    height: 5vh;
+    border-radius: 5px;
+    background: #faf9f910;
+    box-shadow: 0 0 3px rgba(50, 50, 50, .1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    
+}
+
+.botones{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+i{
+    font-size: 1.5rem;
+}
